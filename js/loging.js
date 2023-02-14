@@ -12,7 +12,7 @@ const abc = document.getElementById("btn-submit").addEventListener("click", func
   // Step 03.C: get the value from the element
   const password = passwordField.value;
   // Step 04 varify email and password
-  if (email === "aminulislamemon2002@gmail.com" && password === "0000") {
+  if (email === "abc@gmail.com" && password === "0000") {
     window.location.href = "bank.html";
   } else {
     alert("Invalid user Email and Email Password");
